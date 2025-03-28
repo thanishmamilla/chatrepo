@@ -1,0 +1,44 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+.venv/
+myenv
+
+# Environment variables and secrets
+.env
+*.env
+config.json
+secrets.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Logs and temporary files
+logs/
+*.log
+*.sqlite3
+*.db
+
+# Streamlit cache and generated files
+.streamlit/
+config.toml
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Dependencies
+requirements.txt
+
+# Build and deployment files
+build/
+dist/
+*.egg-info/
